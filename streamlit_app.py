@@ -9,7 +9,7 @@ import openai
 from llama_index import SimpleDirectoryReader
 
 st.set_page_config(page_title="BeerCan Chat : prototype sur API-openAI et LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-openai.api_key = "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"
+openai.api_key = "your api key"
 st.title("Vous pouvez chater avec les document 💬🦙")
 st.info("Plus d'informations sur BeerCan : Check (https://beercan.fr/)", icon="📃")
          
